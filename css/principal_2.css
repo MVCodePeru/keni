@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  margin:0;
+  background-color:#807182;
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  background-color:rgba(52, 58, 64);
+}
+
+
+.img-brand{
+  /* margin-right: 5px; */
+  width: 100px;
+}
+
+.slogan{
+  padding-top: 11px;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  /* color: #E51B23 !important; */
+  font-weight: 900;
+
+}
+
+.nav-link{
+  /* color: #ea4d55 !important; */
+  padding-left:10px !important;
+  font-size: 14px;
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  margin-right: 5px;
+  
+}
+
+
+.boton-fix{
+  background-color: rgba(52,58,64,0.4);
+  border: 1px solid rgb(52,58,64);
+  width:80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  margin-right: 5px;
+
+}
+
+
+.boton-fix img{
+  width: 50%;
+  height: 50%;
+ 
+}
+.container-seccion-somos {
+  display: flex;
+  width: 80vw;
+  height: 200px;
+  margin: auto;
+  background-color: #807182;
+
+}
+
+.somos-imagen{
+  margin:0;
+  width: 50%;
+  height: inherit;
+
+}
+
+.somos-imagen img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+
+.mensaje{
+  margin-top: 20px;
+  width: 50%;
+  font-size: 13px;
+  color: whitesmoke;
+  text-justify: center;
+}
+.mensaje h2 {
+  font-size: 15px;
+  text-align: center;
+}
